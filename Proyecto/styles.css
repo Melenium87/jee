@@ -1,5 +1,5 @@
 body{
-    font-family: Calibri;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nombre{
@@ -40,6 +40,34 @@ opacity: 0,5;
 mix-blend-mode: overlay;
 }
 
+.img{
+    
+}
+
+.about-me{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: 
+    
+}
+
+.border{
+    border: 2px solid red;
+    border-radius: 50px;
+    filter: blur(5px);
+}
+.Fotografo{
+    width: 100%;
+    height: 500px;
+    margin-top: 26px;
+    border: 3px solid #0e0520;
+    border-radius: 50px;
+    position: relative;
+}
+
+
+
 #je{
     min-width: 100vh;
 }
@@ -50,11 +78,12 @@ mix-blend-mode: overlay;
     width: 100%;
     height: 850px;
     object-fit: cover;
+    filter: blur(2px);
 }
 
 
 .bar{
-    background-color: rgb(85, 2, 67);
+    background-color: #0e0520;
     text-align: center;
     width: 100%;
 }
@@ -84,15 +113,18 @@ mix-blend-mode: overlay;
 }
 .box3{
     position: absolute;
-    background-color: rgb(125, 128, 7);
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #1b4ec5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 100%;
-    height: 400px;
+    height: 560px;
     
 }
 .box4{
     background-color: rgb(9, 255, 0);
     width: 100%;
-    height: 1000px;
+    height: 3000px;
     display: flex;
     justify-content: center;
     align-items: center;
