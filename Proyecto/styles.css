@@ -13,11 +13,12 @@ font-size: 3vh;
 
 .letras{
     color: white;
-    
+    background-color: #1b1b2269;
+    border-radius: 10px;
 }
 
 .sobre{
-    padding-top: 350px;
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,3 +121,5 @@ mix-blend-mode: overlay;
     justify-content: center;
     align-items: center;
 }
+
+
